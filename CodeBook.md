@@ -35,7 +35,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
    
 | Variable |
-| ---- | ---- |
+| ---- |
 |tBodyAcc-XYZ |
 |tGravityAcc-XYZ |
 |tBodyAccJerk-XYZ |
@@ -70,8 +70,8 @@ The variables extracted from the dataset are
       
       
 
-|Mean and Standard Deviation Variable|
-|--------   |   --------|
+|Mean and Standard Deviation variable|
+|--------   |
 |tBodyAcc-mean()-X  |  tBodyAcc-mean()-Y |             
 |tBodyAcc-mean()-Z  |  tBodyAcc-std()-X  |
 |tBodyAcc-std()-Y  |  tBodyAcc-std()-Z   |         
