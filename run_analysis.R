@@ -3,9 +3,12 @@ library(dplyr)
 
 # Downloading file and setting directory
 file_name <- "getdata_UCI_HAR_Dataset.zip"
-if(!file.exists(file_name) | !file.exists("./UCI HAR Dataset")) {
+if(!file.exists(file_name)) {
   url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
   download.file(url, destfile = file_name)
+}
+if(!file.exists("./UCI HAR Dataset")){
+  unzip(file_name) 
 }
 
 setwd("./UCI HAR Dataset")
